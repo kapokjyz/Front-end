@@ -1,0 +1,1053 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.60.2.5449/W32 for ARM               13/Nov/2015  16:41:41 #
+# Copyright 2007-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code            #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Exe\uCOS-II.out                                       #
+#    Map file     =  E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code            #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\List\uCOS-II.map                                      #
+#    Command line =  "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code           #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\Alarm.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\0 #
+#                    1-Code Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Proj #
+#                    ect\FLASH\Obj\App_vect_v5.o"                             #
+#                    "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code           #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\Bsp.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01- #
+#                    Code Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Projec #
+#                    t\FLASH\Obj\Bsp_int.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03 #
+#                    -Èí¼þ\01-Code Manage\01-Main                             #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\Bsp_peri #
+#                    ph.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code     #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\Buzzer.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\ #
+#                    01-Code Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Pro #
+#                    ject\FLASH\Obj\Calibration.o"                            #
+#                    "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code           #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\cpu_a.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\0 #
+#                    1-Code Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Proj #
+#                    ect\FLASH\Obj\cpu_c.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03 #
+#                    -Èí¼þ\01-Code Manage\01-Main                             #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\DataSamp #
+#                    .o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code       #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\Display.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ #
+#                    \01-Code Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Pr #
+#                    oject\FLASH\Obj\i2c_ee.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î #
+#                    \03-Èí¼þ\01-Code Manage\01-Main                          #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\k096.o"  #
+#                    "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code           #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\Key.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01- #
+#                    Code Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Projec #
+#                    t\FLASH\Obj\KeyApp.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03- #
+#                    Èí¼þ\01-Code Manage\01-Main                              #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\Led.o"   #
+#                    "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code           #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\lib_ascii.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí #
+#                    ¼þ\01-Code Manage\01-Main Board\02-Trunk\01-MB_Code\IAR- #
+#                    Project\FLASH\Obj\lib_mem.o"                             #
+#                    "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code           #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\lib_str.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ #
+#                    \01-Code Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Pr #
+#                    oject\FLASH\Obj\Main.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\0 #
+#                    3-Èí¼þ\01-Code Manage\01-Main                            #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\Monitor. #
+#                    o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code        #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\Oled.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01 #
+#                    -Code Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Proje #
+#                    ct\FLASH\Obj\os_core.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\0 #
+#                    3-Èí¼þ\01-Code Manage\01-Main                            #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\os_cpu_a #
+#                    .o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code       #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\os_cpu_c.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼ #
+#                    þ\01-Code Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-P #
+#                    roject\FLASH\Obj\os_dbg.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶ #
+#                    Î\03-Èí¼þ\01-Code Manage\01-Main                         #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\os_flag. #
+#                    o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code        #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\os_mbox.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ #
+#                    \01-Code Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Pr #
+#                    oject\FLASH\Obj\os_mem.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î #
+#                    \03-Èí¼þ\01-Code Manage\01-Main                          #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\os_mutex #
+#                    .o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code       #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\os_q.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01 #
+#                    -Code Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Proje #
+#                    ct\FLASH\Obj\os_sem.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03 #
+#                    -Èí¼þ\01-Code Manage\01-Main                             #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\os_task. #
+#                    o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code        #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\os_time.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ #
+#                    \01-Code Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Pr #
+#                    oject\FLASH\Obj\os_tmr.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î #
+#                    \03-Èí¼þ\01-Code Manage\01-Main                          #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\Paw.o"   #
+#                    "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code           #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\Power.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\0 #
+#                    1-Code Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Proj #
+#                    ect\FLASH\Obj\ShutDown.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î #
+#                    \03-Èí¼þ\01-Code Manage\01-Main                          #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\Starting #
+#                    Up.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code     #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\stm32f10x_adc.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\0 #
+#                    3-Èí¼þ\01-Code Manage\01-Main                            #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\stm32f10 #
+#                    x_bkp.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code  #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\stm32f10x_can.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\0 #
+#                    3-Èí¼þ\01-Code Manage\01-Main                            #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\stm32f10 #
+#                    x_crc.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code  #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\stm32f10x_dac.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\0 #
+#                    3-Èí¼þ\01-Code Manage\01-Main                            #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\stm32f10 #
+#                    x_dbgmcu.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Co #
+#                    de Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\ #
+#                    FLASH\Obj\stm32f10x_dma.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶ #
+#                    Î\03-Èí¼þ\01-Code Manage\01-Main                         #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\stm32f10 #
+#                    x_exti.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code #
+#                     Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FL #
+#                    ASH\Obj\stm32f10x_flash.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶ #
+#                    Î\03-Èí¼þ\01-Code Manage\01-Main                         #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\stm32f10 #
+#                    x_fsmc.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code #
+#                     Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FL #
+#                    ASH\Obj\stm32f10x_gpio.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î #
+#                    \03-Èí¼þ\01-Code Manage\01-Main                          #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\stm32f10 #
+#                    x_i2c.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code  #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\stm32f10x_iwdg.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\ #
+#                    03-Èí¼þ\01-Code Manage\01-Main                           #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\stm32f10 #
+#                    x_lib.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code  #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\stm32f10x_nvic.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\ #
+#                    03-Èí¼þ\01-Code Manage\01-Main                           #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\stm32f10 #
+#                    x_pwr.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code  #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\stm32f10x_rcc.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\0 #
+#                    3-Èí¼þ\01-Code Manage\01-Main                            #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\stm32f10 #
+#                    x_rtc.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code  #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\stm32f10x_sdio.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\ #
+#                    03-Èí¼þ\01-Code Manage\01-Main                           #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\stm32f10 #
+#                    x_spi.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code  #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\stm32f10x_systick.o"                              #
+#                    "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code           #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\stm32f10x_tim.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\0 #
+#                    3-Èí¼þ\01-Code Manage\01-Main                            #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\stm32f10 #
+#                    x_usart.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Cod #
+#                    e Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\F #
+#                    LASH\Obj\stm32f10x_wwdg.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶ #
+#                    Î\03-Èí¼þ\01-Code Manage\01-Main                         #
+#                    Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj\TIME_Tim #
+#                    er.o" "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code     #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\Obj\Uart.o" -o "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ #
+#                    \01-Code Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Pr #
+#                    oject\FLASH\Exe\uCOS-II.out" --map                       #
+#                    "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code           #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLA #
+#                    SH\List\uCOS-II.map" --config                            #
+#                    "E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code           #
+#                    Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\..\ #
+#                    System\Processor\IAR\STM32F103ZE_FLASH.icf"              #
+#                    --semihosting --entry __iar_program_start --vfe          #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x08000000 { ro section .intvec };
+"P1":  place in [from 0x08000000 to 0x0800ffff] { ro };
+"P2":  place in [from 0x20000000 to 0x20004fff] { rw, block CSTACK, block HEAP };
+
+  Section            Kind        Address    Size  Object
+  -------            ----        -------    ----  ------
+"A1":                                      0x130
+  .intvec            const    0x08000000   0x130  App_vect_v5.o [1]
+                            - 0x08000130   0x130
+
+"P1":                                     0x5ee0
+  .text              ro code  0x08000130   0x724  os_core.o [1]
+  .text              ro code  0x08000854    0xfc  os_cpu_c.o [1]
+  CODE               ro code  0x08000950    0xa0  os_cpu_a.o [1]
+  .text              ro code  0x080009f0   0x408  os_task.o [1]
+  .text              ro code  0x08000df8   0x138  os_time.o [1]
+  .text              ro code  0x08000f30    0xea  Bsp.o [1]
+  .text              ro code  0x0800101a    0x22  zero_init3.o [5]
+  .text              ro code  0x0800103c   0x344  stm32f10x_rcc.o [1]
+  .text              ro code  0x08001380    0x4c  stm32f10x_flash.o [1]
+  .text              ro code  0x080013cc    0x10  stm32f10x_iwdg.o [1]
+  .text              ro code  0x080013dc   0x2d6  Bsp_int.o [1]
+  .rodata            const    0x080016b2     0x2  os_dbg.o [1]
+  .text              ro code  0x080016b4   0x3d4  i2c_ee.o [1]
+  .text              ro code  0x08001a88   0x108  Led.o [1]
+  .text              ro code  0x08001b90    0x9c  Key.o [1]
+  .text              ro code  0x08001c2c    0xc4  Power.o [1]
+  .text              ro code  0x08001cf0   0x164  Oled.o [1]
+  .text              ro code  0x08001e54   0x218  Paw.o [1]
+  .text              ro code  0x0800206c   0x128  Buzzer.o [1]
+  CODE               ro code  0x08002194    0x2a  cpu_a.o [1]
+  .text              ro code  0x080021c0   0x1d4  stm32f10x_gpio.o [1]
+  .text              ro code  0x08002394   0x212  stm32f10x_i2c.o [1]
+  .text              ro code  0x080025a8    0x24  printf.o [3]
+  .text              ro code  0x080025cc   0x3b4  k096.o [1]
+  .text              ro code  0x08002980    0xac  stm32f10x_tim.o [1]
+  .text              ro code  0x08002a2c    0xd8  stm32f10x_nvic.o [1]
+  .text              ro code  0x08002b04   0x144  xprintftiny.o [3]
+  .text              ro code  0x08002c48    0x36  strlen.o [5]
+  .text              ro code  0x08002c80   0x61c  DataSamp.o [1]
+  .text              ro code  0x0800329c    0x32  I32ToFlt.o [4]
+  .text              ro code  0x080032d0    0x4e  FltToDbl.o [4]
+  .text              ro code  0x08003320   0x246  DblDiv.o [4]
+  .text              ro code  0x08003568    0x90  DblToFlt.o [4]
+  .text              ro code  0x080035f8   0x1a2  DblMul.o [4]
+  .text              ro code  0x0800379c   0x1a4  stm32f10x_dma.o [1]
+  .text              ro code  0x08003940   0x200  stm32f10x_adc.o [1]
+  .text              ro code  0x08003b40   0x1c8  StartingUp.o [1]
+  .text              ro code  0x08003d08   0x360  Calibration.o [1]
+  .text              ro code  0x08004068    0xfc  FltDiv.o [4]
+  .text              ro code  0x08004164    0xe6  FltSub.o [4]
+  .text              ro code  0x0800424c    0xe8  DblAdd.o [4]
+  .text              ro code  0x08004334    0x4c  DblToI32.o [4]
+  .text              ro code  0x08004380    0x24  FltCmpLe.o [4]
+  .text              ro code  0x080043a4   0x4e8  Alarm.o [1]
+  .text              ro code  0x0800488c   0x120  KeyApp.o [1]
+  .text              ro code  0x080049ac    0x74  FltAdd.o [4]
+  .text              ro code  0x08004a20   0x16c  DblSub.o [4]
+  .text              ro code  0x08004b8c    0xf8  ShutDown.o [1]
+  .text              ro code  0x08004c84   0x242  TIME_Timer.o [1]
+  .text              ro code  0x08004ec8   0x5cc  Monitor.o [1]
+  .text              ro code  0x08005494    0x56  ABImemcpy_unaligned.o [5]
+  .text              ro code  0x080054ea    0x14  memset.o [3]
+  .text              ro code  0x08005500    0xc4  Display.o [1]
+  .text              ro code  0x080055c4    0x24  FltCmpGe.o [4]
+  .text              ro code  0x080055e8    0x66  ABImemset.o [5]
+  .text              ro code  0x0800564e   0x1cc  lz77_init.o [5]
+  .text              ro code  0x0800581a     0x6  abort.o [3]
+  .text              ro code  0x08005820    0x14  exit.o [6]
+  .text              ro code  0x08005834   0x16a  Main.o [1]
+  .rodata            const    0x080059a0   0x100  os_core.o [1]
+  .text              ro code  0x08005aa0    0xaa  stm32f10x_usart.o [1]
+  .text              ro code  0x08005b4c    0x90  Uart.o [1]
+  .text              ro code  0x08005bdc    0x28  data_init.o [5]
+  .rodata            const    0x08005c04    0x24  Power.o [1]
+  .rodata            const    0x08005c28    0x24  Power.o [1]
+  .iar.init_table    const    0x08005c4c    0x2c  - Linker created -
+  .rodata            const    0x08005c78    0x20  Led.o [1]
+  .rodata            const    0x08005c98    0x20  Led.o [1]
+  .text              ro code  0x08005cb8    0x1a  cmain.o [5]
+  .text              ro code  0x08005cd2     0x4  low_level_init.o [3]
+  .text              ro code  0x08005cd6     0x4  exit.o [3]
+  .text              ro code  0x08005cdc     0xa  cexit.o [5]
+  .text              ro code  0x08005ce6    0x16  xprout.o [3]
+  .text              ro code  0x08005cfc     0xc  putchar.o [3]
+  .rodata            const    0x08005d08    0x10  os_core.o [1]
+  .rodata            const    0x08005d18    0x10  os_core.o [1]
+  .rodata            const    0x08005d28    0x10  stm32f10x_rcc.o [1]
+  .text              ro code  0x08005d38     0xc  App_vect_v5.o [1]
+  .text              ro code  0x08005d44     0xc  cstartup_M.o [5]
+  .rodata            const    0x08005d50     0x4  stm32f10x_rcc.o [1]
+  .rodata            const    0x08005d54     0x0  zero_init3.o [5]
+  .rodata            const    0x08005d54     0x0  lz77_init.o [5]
+  Initializer bytes  ro data  0x08005d54   0x2bc  <for P2 s0>
+                            - 0x08006010  0x5ee0
+
+"P2", part 1 of 3:                         0x6f8
+  P2 s0                       0x20000000   0x6f8  <Init block>
+    .data            inited   0x20000000   0x458  k096.o [1]
+    .data            inited   0x20000458   0x138  Uart.o [1]
+    .data            inited   0x20000590    0x60  Led.o [1]
+    .data            inited   0x200005f0    0x50  Power.o [1]
+    .data            inited   0x20000640    0x40  xfiles.o [3]
+    .data            inited   0x20000680    0x30  Key.o [1]
+    .data            inited   0x200006b0    0x2c  Alarm.o [1]
+    .data            inited   0x200006dc     0xc  Led.o [1]
+    .data            inited   0x200006e8     0x4  Alarm.o [1]
+    .data            inited   0x200006ec     0x4  Calibration.o [1]
+    .data            inited   0x200006f0     0x4  Key.o [1]
+    .data            inited   0x200006f4     0x2  Monitor.o [1]
+    .data            inited   0x200006f6     0x2  Paw.o [1]
+                            - 0x200006f8   0x6f8
+
+"P2", part 2 of 3:                        0x3130
+  .bss               zero     0x200006f8   0x400  Main.o [1]
+  .bss               zero     0x20000af8   0x400  Main.o [1]
+  .bss               zero     0x20000ef8   0x400  Main.o [1]
+  .bss               zero     0x200012f8   0x400  Main.o [1]
+  .bss               zero     0x200016f8   0x400  Main.o [1]
+  .bss               zero     0x20001af8   0x400  Main.o [1]
+  .bss               zero     0x20001ef8   0x400  Main.o [1]
+  .bss               zero     0x200022f8   0x400  Main.o [1]
+  .bss               zero     0x200026f8   0x400  StartingUp.o [1]
+  .bss               zero     0x20002af8   0x3f0  os_core.o [1]
+  .bss               zero     0x20002ee8   0x200  os_core.o [1]
+  .bss               zero     0x200030e8   0x200  os_core.o [1]
+  .bss               zero     0x200032e8    0xf0  Bsp_int.o [1]
+  .bss               zero     0x200033d8    0xf0  TIME_Timer.o [1]
+  .bss               zero     0x200034c8    0x80  os_core.o [1]
+  .bss               zero     0x20003548    0x74  Alarm.o [1]
+  .bss               zero     0x200035bc    0x50  DataSamp.o [1]
+  .bss               zero     0x2000360c    0x50  os_core.o [1]
+  .bss               zero     0x2000365c    0x50  xfiles.o [3]
+  .bss               zero     0x200036ac    0x30  Uart.o [1]
+  .bss               zero     0x200036dc    0x20  DataSamp.o [1]
+  .bss               zero     0x200036fc    0x20  StartingUp.o [1]
+  .bss               zero     0x2000371c    0x1c  Calibration.o [1]
+  .bss               zero     0x20003738    0x1c  DataSamp.o [1]
+  .bss               zero     0x20003754    0x14  Bsp.o [1]
+  .bss               zero     0x20003768     0xc  Buzzer.o [1]
+  .bss               zero     0x20003774     0x8  DataSamp.o [1]
+  .bss               zero     0x2000377c     0x8  Monitor.o [1]
+  .bss               zero     0x20003784     0x8  Monitor.o [1]
+  .bss               zero     0x2000378c     0x8  ShutDown.o [1]
+  .bss               zero     0x20003794     0x4  Calibration.o [1]
+  .bss               zero     0x20003798     0x4  Calibration.o [1]
+  .bss               zero     0x2000379c     0x4  Calibration.o [1]
+  .bss               zero     0x200037a0     0x4  Calibration.o [1]
+  .bss               zero     0x200037a4     0x4  DataSamp.o [1]
+  .bss               zero     0x200037a8     0x4  DataSamp.o [1]
+  .bss               zero     0x200037ac     0x4  DataSamp.o [1]
+  .bss               zero     0x200037b0     0x4  DataSamp.o [1]
+  .bss               zero     0x200037b4     0x4  DataSamp.o [1]
+  .bss               zero     0x200037b8     0x4  DataSamp.o [1]
+  .bss               zero     0x200037bc     0x4  DataSamp.o [1]
+  .bss               zero     0x200037c0     0x4  KeyApp.o [1]
+  .bss               zero     0x200037c4     0x4  Monitor.o [1]
+  .bss               zero     0x200037c8     0x4  Monitor.o [1]
+  .bss               zero     0x200037cc     0x4  Monitor.o [1]
+  .bss               zero     0x200037d0     0x4  os_core.o [1]
+  .bss               zero     0x200037d4     0x4  os_core.o [1]
+  .bss               zero     0x200037d8     0x4  os_core.o [1]
+  .bss               zero     0x200037dc     0x4  os_core.o [1]
+  .bss               zero     0x200037e0     0x4  os_core.o [1]
+  .bss               zero     0x200037e4     0x4  os_core.o [1]
+  .bss               zero     0x200037e8     0x4  os_core.o [1]
+  .bss               zero     0x200037ec     0x4  os_core.o [1]
+  .bss               zero     0x200037f0     0x4  os_core.o [1]
+  .bss               zero     0x200037f4     0x4  os_core.o [1]
+  .bss               zero     0x200037f8     0x4  os_core.o [1]
+  .bss               zero     0x200037fc     0x4  ShutDown.o [1]
+  .bss               zero     0x20003800     0x2  KeyApp.o [1]
+  .bss               zero     0x20003802     0x1  Buzzer.o [1]
+  .bss               zero     0x20003803     0x1  Calibration.o [1]
+  .bss               zero     0x20003804     0x1  Calibration.o [1]
+  .bss               zero     0x20003805     0x1  Calibration.o [1]
+  .bss               zero     0x20003806     0x1  Calibration.o [1]
+  .bss               zero     0x20003807     0x1  DataSamp.o [1]
+  .bss               zero     0x20003808     0x1  Display.o [1]
+  .bss               zero     0x20003809     0x1  Display.o [1]
+  .bss               zero     0x2000380a     0x1  Display.o [1]
+  .bss               zero     0x2000380b     0x1  Display.o [1]
+  .bss               zero     0x2000380c     0x1  Display.o [1]
+  .bss               zero     0x2000380d     0x1  KeyApp.o [1]
+  .bss               zero     0x2000380e     0x1  KeyApp.o [1]
+  .bss               zero     0x2000380f     0x1  Monitor.o [1]
+  .bss               zero     0x20003810     0x1  Monitor.o [1]
+  .bss               zero     0x20003811     0x1  Monitor.o [1]
+  .bss               zero     0x20003812     0x1  Monitor.o [1]
+  .bss               zero     0x20003813     0x1  Monitor.o [1]
+  .bss               zero     0x20003814     0x1  Monitor.o [1]
+  .bss               zero     0x20003815     0x1  Monitor.o [1]
+  .bss               zero     0x20003816     0x1  Monitor.o [1]
+  .bss               zero     0x20003817     0x1  Oled.o [1]
+  .bss               zero     0x20003818     0x1  os_core.o [1]
+  .bss               zero     0x20003819     0x1  os_core.o [1]
+  .bss               zero     0x2000381a     0x1  os_core.o [1]
+  .bss               zero     0x2000381b     0x1  os_core.o [1]
+  .bss               zero     0x2000381c     0x1  os_core.o [1]
+  .bss               zero     0x2000381d     0x1  os_core.o [1]
+  .bss               zero     0x2000381e     0x1  os_core.o [1]
+  .bss               zero     0x2000381f     0x1  os_core.o [1]
+  .bss               zero     0x20003820     0x1  os_core.o [1]
+  .bss               zero     0x20003821     0x1  os_core.o [1]
+  .bss               zero     0x20003822     0x1  ShutDown.o [1]
+  .bss               zero     0x20003823     0x1  StartingUp.o [1]
+  .bss               zero     0x20003824     0x1  StartingUp.o [1]
+  .bss               zero     0x20003825     0x1  StartingUp.o [1]
+                            - 0x20003826  0x312e
+
+"P2", part 3 of 3:                         0x400
+  CSTACK                      0x20003828   0x400  <Block>
+    CSTACK           uninit   0x20003828   0x400  <Block tail>
+                            - 0x20003c28   0x400
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x312e:
+          0x200006f8  0x312e
+
+Copy/lz77 (__iar_lz77_init3)
+    1 source range, total size 0x2bc (39% of destination):
+          0x08005d54   0x2bc
+    1 destination range, total size 0x6f8:
+          0x20000000   0x6f8
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                 ro code  ro data  rw data
+    ------                 -------  -------  -------
+E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj: [1]
+    Alarm.o                  1 256       20      164
+    App_vect_v5.o               12      304
+    Bsp.o                      234                20
+    Bsp_int.o                  726               240
+    Buzzer.o                   296                13
+    Calibration.o              864        1       52
+    DataSamp.o               1 564               177
+    Display.o                  196                 5
+    Key.o                      156       21       52
+    KeyApp.o                   288                 8
+    Led.o                      264      106      108
+    Main.o                     362             8 192
+    Monitor.o                1 484        1       38
+    Oled.o                     356                 1
+    Paw.o                      536        1        2
+    Power.o                    196      103       80
+    ShutDown.o                 248                13
+    StartingUp.o               456             1 059
+    TIME_Timer.o               578               240
+    Uart.o                     144      122      360
+    cpu_a.o                     42
+    i2c_ee.o                   980
+    k096.o                     948      436    1 112
+    os_core.o                1 828      288    2 294
+    os_cpu_a.o                 160
+    os_cpu_c.o                 252
+    os_dbg.o                              2
+    os_task.o                1 032
+    os_time.o                  312
+    stm32f10x_adc.o            512
+    stm32f10x_dma.o            420
+    stm32f10x_flash.o           76
+    stm32f10x_gpio.o           468
+    stm32f10x_i2c.o            530
+    stm32f10x_iwdg.o            16
+    stm32f10x_nvic.o           216
+    stm32f10x_rcc.o            836       20
+    stm32f10x_tim.o            172
+    stm32f10x_usart.o          170
+    ------------------------------------------------
+    Total:                  19 186    1 425   14 230
+
+command line: [2]
+    ------------------------------------------------
+    Total:
+
+dl7M_tlf.a: [3]
+    abort.o                      6
+    exit.o                       4
+    low_level_init.o             4
+    memset.o                    20
+    printf.o                    36
+    putchar.o                   12
+    xfiles.o                             25      144
+    xprintftiny.o              324
+    xprout.o                    22
+    ------------------------------------------------
+    Total:                     428       25      144
+
+m7M_tl.a: [4]
+    DblAdd.o                   232
+    DblDiv.o                   582
+    DblMul.o                   418
+    DblSub.o                   364
+    DblToFlt.o                 144
+    DblToI32.o                  76
+    FltAdd.o                   116
+    FltCmpGe.o                  36
+    FltCmpLe.o                  36
+    FltDiv.o                   252
+    FltSub.o                   230
+    FltToDbl.o                  78
+    I32ToFlt.o                  50
+    ------------------------------------------------
+    Total:                   2 614
+
+rt7M_tl.a: [5]
+    ABImemcpy_unaligned.o       86
+    ABImemset.o                102
+    cexit.o                     10
+    cmain.o                     26
+    cstartup_M.o                12
+    data_init.o                 40
+    lz77_init.o                460
+    strlen.o                    54
+    zero_init3.o                34
+    ------------------------------------------------
+    Total:                     824
+
+shb_l.a: [6]
+    exit.o                      20
+    ------------------------------------------------
+    Total:                      20
+
+    Gaps                        24        2
+    Linker created                       44    1 024
+----------------------------------------------------
+    Grand Total:            23 096    1 496   15 398
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+?main                   0x08005cb9         Code  Gb  cmain.o [5]
+ADCPrescTable           0x08005d50    0x4  Data  Lc  stm32f10x_rcc.o [1]
+ADC_Cmd                 0x08003991   0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_DMACmd              0x080039ab   0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetCalibrationStatus
+                        0x080039f1   0x18  Code  Gb  stm32f10x_adc.o [1]
+ADC_GetResetCalibrationStatus
+                        0x080039cf   0x18  Code  Gb  stm32f10x_adc.o [1]
+ADC_Init                0x08003941   0x50  Code  Gb  stm32f10x_adc.o [1]
+ADC_RegularChannelConfig
+                        0x08003a23   0xee  Code  Gb  stm32f10x_adc.o [1]
+ADC_ResetCalibration    0x080039c5    0xa  Code  Gb  stm32f10x_adc.o [1]
+ADC_SoftwareStartConvCmd
+                        0x08003a09   0x1a  Code  Gb  stm32f10x_adc.o [1]
+ADC_StartCalibration    0x080039e7    0xa  Code  Gb  stm32f10x_adc.o [1]
+ADC_TempSensorVrefintCmd
+                        0x08003b11   0x22  Code  Gb  stm32f10x_adc.o [1]
+ALARM_Exec              0x0800477d   0xee  Code  Gb  Alarm.o [1]
+ALARM_GetIsDisableSound
+                        0x0800486b    0x6  Code  Gb  Alarm.o [1]
+ALARM_Init              0x08004713   0x6a  Code  Gb  Alarm.o [1]
+ALARM_LedOutput         0x080044b9  0x1d6  Code  Lc  Alarm.o [1]
+ALARM_Output            0x0800468f   0x32  Code  Lc  Alarm.o [1]
+ALARM_SoundDisable      0x080046c1   0x42  Code  Lc  Alarm.o [1]
+ALARM_VoiceOutput       0x080043a5  0x114  Code  Lc  Alarm.o [1]
+ALARM_Write             0x08004703   0x10  Code  Gb  Alarm.o [1]
+APBAHBPrescTable        0x08005d28   0x10  Data  Lc  stm32f10x_rcc.o [1]
+App_BusFault_ISR        0x08005d3d    0x2  Code  Lc  App_vect_v5.o [1]
+App_Fault_ISR           0x08005d3b    0x2  Code  Lc  App_vect_v5.o [1]
+App_MemFault_ISR        0x08005d41    0x2  Code  Lc  App_vect_v5.o [1]
+App_NMI_ISR             0x08005d39    0x2  Code  Lc  App_vect_v5.o [1]
+App_Spurious_ISR        0x08005d43    0x2  Code  Lc  App_vect_v5.o [1]
+App_UsageFault_ISR      0x08005d3f    0x2  Code  Lc  App_vect_v5.o [1]
+BSP_CPU_ClkFreq         0x08000f31    0xe  Code  Lc  Bsp.o [1]
+BSP_Init                0x08000fe7   0x34  Code  Gb  Bsp.o [1]
+BSP_IntDisAll           0x080013dd    0x8  Code  Gb  Bsp_int.o [1]
+BSP_IntHandler          0x08001675   0x34  Code  Lc  Bsp_int.o [1]
+BSP_IntHandlerADC1_2    0x080014d1    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerADC3      0x080015f3    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerCAN_RX1   0x080014ef    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerCAN_SCE   0x080014f9    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerDMA1_CH1  0x0800148b    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerDMA1_CH2  0x08001495    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerDMA1_CH3  0x0800149f    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerDMA1_CH4  0x080014a9    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerDMA1_CH5  0x080014b3    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerDMA1_CH6  0x080014bd    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerDMA1_CH7  0x080014c7    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerDMA2_CH1  0x0800164d    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerDMA2_CH2  0x08001657    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerDMA2_CH3  0x08001661    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerDMA2_CH4_5
+                        0x0800166b    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerDummy     0x080016b1    0x2  Code  Lc  Bsp_int.o [1]
+BSP_IntHandlerEXTI0     0x08001459    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerEXTI1     0x08001463    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerEXTI15_10
+                        0x080015ad    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerEXTI2     0x0800146d    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerEXTI3     0x08001477    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerEXTI4     0x08001481    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerEXTI9_5   0x08001503    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerFLASH     0x08001445    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerFSMC      0x080015fd    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerI2C1_ER   0x0800155d    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerI2C1_EV   0x08001553    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerI2C2_ER   0x08001571    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerI2C2_EV   0x08001567    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerPVD       0x08001427    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerRCC       0x0800144f    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerRTC       0x0800143b    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerRTCAlarm  0x080015b7    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerSDIO      0x08001607    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerSPI1      0x0800157b    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerSPI2      0x08001585    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerSPI3      0x0800161b    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerTAMPER    0x08001431    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerTIM1_BRK  0x0800150d    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerTIM1_CC   0x0800152b    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerTIM1_TRG_COM
+                        0x08001521    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerTIM1_UP   0x08001517    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerTIM2      0x08001535    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerTIM3      0x0800153f    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerTIM4      0x08001549    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerTIM5      0x08001611    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerTIM6      0x08001639    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerTIM7      0x08001643    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerTIM8_BRK  0x080015cb    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerTIM8_CC   0x080015e9    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerTIM8_TRG_COM
+                        0x080015df    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerTIM8_UP   0x080015d5    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerUART4     0x08001625    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerUART5     0x0800162f    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerUSART1    0x0800158f    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerUSART2    0x08001599    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerUSART3    0x080015a3    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerUSBWakeUp
+                        0x080015c1    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerUSB_HP_CAN_TX
+                        0x080014db    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerUSB_LP_CAN_RX0
+                        0x080014e5    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntHandlerWWDG      0x0800141d    0xa  Code  Gb  Bsp_int.o [1]
+BSP_IntInit             0x08001403   0x1a  Code  Gb  Bsp_int.o [1]
+BSP_IntVectSet          0x080013e5   0x1e  Code  Gb  Bsp_int.o [1]
+BSP_IntVectTbl          0x200032e8   0xf0  Data  Lc  Bsp_int.o [1]
+BSP_RCCInit             0x08000f45   0x8e  Code  Lc  Bsp.o [1]
+BUZZER_Config           0x08002119   0x20  Code  Gb  Buzzer.o [1]
+BUZZER_TIM3Handle       0x08002087   0x1c  Code  Lc  Buzzer.o [1]
+BUZZER_TIM3Init         0x080020a3   0x76  Code  Gb  Buzzer.o [1]
+BUZZER_TIM3VoiceOutPut  0x0800206d   0x1a  Code  Lc  Buzzer.o [1]
+BUZZER_VoiceCtrl        0x08002139   0x22  Code  Lc  Buzzer.o [1]
+BUZZER_VoiceOutput      0x0800215b   0x24  Code  Gb  Buzzer.o [1]
+CALIBRATION_Exec        0x08003f33   0xf6  Code  Gb  Calibration.o [1]
+CALIBRATION_FiO2        0x08003d09   0xf6  Code  Lc  Calibration.o [1]
+CALIBRATION_GetCalSucflag
+                        0x0800402f   0x12  Code  Gb  Calibration.o [1]
+CALIBRATION_IsAdj       0x08004029    0x6  Code  Gb  Calibration.o [1]
+CALIBRATION_PAW         0x08003dff  0x134  Code  Lc  Calibration.o [1]
+CPU_CntLeadZeros        0x080021ab         Code  Gb  cpu_a.o [1]
+CPU_IntDis              0x08002195         Code  Gb  cpu_a.o [1]
+CPU_IntEn               0x08002199         Code  Gb  cpu_a.o [1]
+CPU_RevBits             0x080021b1         Code  Gb  cpu_a.o [1]
+CPU_SR_Restore          0x080021a5         Code  Gb  cpu_a.o [1]
+CPU_SR_Save             0x0800219d         Code  Gb  cpu_a.o [1]
+CPU_WaitForExcept       0x080021bb         Code  Gb  cpu_a.o [1]
+CPU_WaitForInt          0x080021b7         Code  Gb  cpu_a.o [1]
+CSTACK$$Base            0x20003828          --   Gb  - Linker created -
+CSTACK$$Limit           0x20003c28          --   Gb  - Linker created -
+DATASAMP_AdValue        0x08003231    0xe  Code  Gb  DataSamp.o [1]
+DATASAMP_AppAdjustO2    0x080030ff   0x6e  Code  Gb  DataSamp.o [1]
+DATASAMP_AppCalO2       0x0800316d   0x64  Code  Gb  DataSamp.o [1]
+DATASAMP_AppCalPaw      0x080031d1   0x52  Code  Gb  DataSamp.o [1]
+DATASAMP_CalVoltage     0x08002d29   0x3c  Code  Lc  DataSamp.o [1]
+DATASAMP_Calib          0x08002ee9  0x146  Code  Gb  DataSamp.o [1]
+DATASAMP_Exec           0x0800302f   0xd0  Code  Gb  DataSamp.o [1]
+DATASAMP_GetVoltage     0x08003223    0xe  Code  Gb  DataSamp.o [1]
+DATASAMP_Init           0x08002d65  0x184  Code  Gb  DataSamp.o [1]
+DATASAMP_MidValueFilter
+                        0x08002c81   0xa8  Code  Lc  DataSamp.o [1]
+DISPLAY_Exec            0x08005515   0x90  Code  Gb  Display.o [1]
+DISPLAY_GETValue        0x08005501   0x14  Code  Lc  Display.o [1]
+DISPLAY_GetFiO2         0x080055a5    0x6  Code  Gb  Display.o [1]
+DISPLAY_GetPaw          0x080055ab    0x6  Code  Gb  Display.o [1]
+DMA_ClearFlag           0x0800391b   0x10  Code  Gb  stm32f10x_dma.o [1]
+DMA_Cmd                 0x080038d7   0x1a  Code  Gb  stm32f10x_dma.o [1]
+DMA_DeInit              0x0800379d   0xfc  Code  Gb  stm32f10x_dma.o [1]
+DMA_GetFlagStatus       0x080038f1   0x2a  Code  Gb  stm32f10x_dma.o [1]
+DMA_Init                0x08003899   0x3e  Code  Gb  stm32f10x_dma.o [1]
+FLASH_HalfCycleAccessCmd
+                        0x08001399   0x18  Code  Gb  stm32f10x_flash.o [1]
+FLASH_PrefetchBufferCmd
+                        0x080013b1   0x18  Code  Gb  stm32f10x_flash.o [1]
+FLASH_SetLatency        0x08001381   0x18  Code  Gb  stm32f10x_flash.o [1]
+FeedWatchDog            0x08000fd3    0x8  Code  Gb  Bsp.o [1]
+GPIO_Configuration      0x080016b5   0x2a  Code  Lc  i2c_ee.o [1]
+GPIO_Init               0x080021c1  0x136  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_PinRemapConfig     0x0800231d   0x72  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ReadInputDataBit   0x080022f7   0x1a  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_ResetBits          0x08002317    0x6  Code  Gb  stm32f10x_gpio.o [1]
+GPIO_SetBits            0x08002311    0x6  Code  Gb  stm32f10x_gpio.o [1]
+I2C_AcknowledgeConfig   0x080024e9   0x1c  Code  Gb  stm32f10x_i2c.o [1]
+I2C_CheckEvent          0x0800252f   0x34  Code  Gb  stm32f10x_i2c.o [1]
+I2C_ClearFlag           0x08002599    0xe  Code  Gb  stm32f10x_i2c.o [1]
+I2C_Cmd                 0x08002495   0x1c  Code  Gb  stm32f10x_i2c.o [1]
+I2C_Configuration       0x080016df   0x4e  Code  Lc  i2c_ee.o [1]
+I2C_EE_BufferRead       0x0800194d   0xd2  Code  Gb  i2c_ee.o [1]
+I2C_EE_BufferWrite      0x0800174b  0x17c  Code  Gb  i2c_ee.o [1]
+I2C_EE_Init             0x0800172d   0x1e  Code  Gb  i2c_ee.o [1]
+I2C_EE_PageWrite        0x080018c7   0x86  Code  Gb  i2c_ee.o [1]
+I2C_EE_WaitEepromStandbyState
+                        0x08001a1f   0x44  Code  Gb  i2c_ee.o [1]
+I2C_GenerateSTART       0x080024b1   0x1c  Code  Gb  stm32f10x_i2c.o [1]
+I2C_GenerateSTOP        0x080024cd   0x1c  Code  Gb  stm32f10x_i2c.o [1]
+I2C_GetFlagStatus       0x08002563   0x36  Code  Gb  stm32f10x_i2c.o [1]
+I2C_Init                0x08002395   0xf2  Code  Gb  stm32f10x_i2c.o [1]
+I2C_ReadRegister        0x08002527    0x8  Code  Gb  stm32f10x_i2c.o [1]
+I2C_ReceiveData         0x0800250b    0x6  Code  Gb  stm32f10x_i2c.o [1]
+I2C_Send7bitAddress     0x08002511   0x16  Code  Gb  stm32f10x_i2c.o [1]
+I2C_SendData            0x08002505    0x6  Code  Gb  stm32f10x_i2c.o [1]
+IWDG_ReloadCounter      0x080013cd    0xa  Code  Gb  stm32f10x_iwdg.o [1]
+InStream_Read           0x0800564f   0x22  Code  Lc  lz77_init.o [5]
+KEYAPP_Exec             0x0800488d   0x84  Code  Gb  KeyApp.o [1]
+KEYAPP_GetAlarmSetFlag  0x08004911    0x6  Code  Gb  KeyApp.o [1]
+KEYAPP_GetAlarmSetSucflag
+                        0x08004981   0x12  Code  Gb  KeyApp.o [1]
+KEYAPP_GetAlarmSetValue
+                        0x08004979    0x8  Code  Gb  KeyApp.o [1]
+KEYAPP_Takeoff          0x08004917   0x62  Code  Gb  KeyApp.o [1]
+KEY_Config              0x08001b91   0x54  Code  Gb  Key.o [1]
+KEY_Scan                0x08001be5   0x3e  Code  Gb  Key.o [1]
+LCD_Clear               0x08002763   0x22  Code  Gb  k096.o [1]
+LED_Config              0x08001a89   0x96  Code  Gb  Led.o [1]
+LED_Set                 0x08001b1f   0x60  Code  Gb  Led.o [1]
+MAIN_CalibrationTask    0x08005989   0x16  Code  Lc  Main.o [1]
+MAIN_CreateServeTask    0x0800587f   0x3c  Code  Lc  Main.o [1]
+MAIN_DataSampTask       0x08005925   0x1a  Code  Lc  Main.o [1]
+MAIN_DispTask           0x08005959   0x16  Code  Lc  Main.o [1]
+MAIN_KeyTask            0x08005971   0x16  Code  Lc  Main.o [1]
+MAIN_MonitorTask        0x08005941   0x16  Code  Lc  Main.o [1]
+MAIN_ShutDownTask       0x080058f1   0x16  Code  Lc  Main.o [1]
+MAIN_StartingUpTask     0x080058dd   0x14  Code  Lc  Main.o [1]
+MAIN_TimerTask          0x08005909   0x1a  Code  Lc  Main.o [1]
+MONITOR_Alarm           0x080050c7  0x2d8  Code  Lc  Monitor.o [1]
+MONITOR_ChargeBAT       0x08004ec9   0x20  Code  Lc  Monitor.o [1]
+MONITOR_Exec            0x08005427   0x14  Code  Gb  Monitor.o [1]
+MONITOR_GetFiO2Value    0x0800543b    0x6  Code  Gb  Monitor.o [1]
+MONITOR_GetPawValue     0x08005441    0x6  Code  Gb  Monitor.o [1]
+MONITOR_SetSoundDisable
+                        0x08005447    0x8  Code  Gb  Monitor.o [1]
+MONITOR_Version         0x0800539f   0x88  Code  Gb  Monitor.o [1]
+MONITOR_Voltage         0x08004ee9  0x1de  Code  Lc  Monitor.o [1]
+NVIC_GenerateSystemReset
+                        0x08002ae5    0x8  Code  Gb  stm32f10x_nvic.o [1]
+NVIC_Init               0x08002a3b   0xaa  Code  Gb  stm32f10x_nvic.o [1]
+NVIC_PriorityGroupConfig
+                        0x08002a2d    0xe  Code  Gb  stm32f10x_nvic.o [1]
+OLED_Config             0x08001cf1   0x3c  Code  Gb  Oled.o [1]
+OLED_Display            0x08001d2d   0x88  Code  Gb  Oled.o [1]
+OLED_Version            0x08001dc1   0x94  Code  Gb  Oled.o [1]
+OSCPUUsage              0x20003818    0x1  Data  Gb  os_core.o [1]
+OSCtxSw                 0x0800097b         Code  Gb  os_cpu_a.o [1]
+OSCtxSwCtr              0x200037d0    0x4  Data  Gb  os_core.o [1]
+OSDebugEn               0x080016b2    0x2  Data  Gb  os_dbg.o [1]
+OSEventFreeList         0x200037d4    0x4  Data  Gb  os_core.o [1]
+OSEventTbl              0x2000360c   0x50  Data  Gb  os_core.o [1]
+OSIdleCtr               0x200037e4    0x4  Data  Gb  os_core.o [1]
+OSIdleCtrMax            0x200037d8    0x4  Data  Gb  os_core.o [1]
+OSIdleCtrRun            0x200037dc    0x4  Data  Gb  os_core.o [1]
+OSInit                  0x08000131   0x24  Code  Gb  os_core.o [1]
+OSInitHookBegin         0x08000855    0x2  Code  Gb  os_cpu_c.o [1]
+OSInitHookEnd           0x08000857    0x2  Code  Gb  os_cpu_c.o [1]
+OSIntCtxSw              0x08000983         Code  Gb  os_cpu_a.o [1]
+OSIntExit               0x08000155   0x94  Code  Gb  os_core.o [1]
+OSIntNesting            0x2000381a    0x1  Data  Gb  os_core.o [1]
+OSLockNesting           0x2000381b    0x1  Data  Gb  os_core.o [1]
+OSPrioCur               0x2000381c    0x1  Data  Gb  os_core.o [1]
+OSPrioHighRdy           0x2000381d    0x1  Data  Gb  os_core.o [1]
+OSRdyGrp                0x2000381e    0x1  Data  Gb  os_core.o [1]
+OSRdyTbl                0x200037e0    0x4  Data  Gb  os_core.o [1]
+OSRunning               0x2000381f    0x1  Data  Gb  os_core.o [1]
+OSStart                 0x080001e9   0x42  Code  Gb  os_core.o [1]
+OSStartHighRdy          0x0800095f         Code  Gb  os_cpu_a.o [1]
+OSStatRdy               0x20003819    0x1  Data  Gb  os_core.o [1]
+OSTCBCur                0x200037e8    0x4  Data  Gb  os_core.o [1]
+OSTCBFreeList           0x200037ec    0x4  Data  Gb  os_core.o [1]
+OSTCBHighRdy            0x200037f0    0x4  Data  Gb  os_core.o [1]
+OSTCBInitHook           0x080008e1    0x2  Code  Gb  os_cpu_c.o [1]
+OSTCBList               0x200037f4    0x4  Data  Gb  os_core.o [1]
+OSTCBPrioTbl            0x200034c8   0x80  Data  Gb  os_core.o [1]
+OSTCBTbl                0x20002af8  0x3f0  Data  Gb  os_core.o [1]
+OSTaskCreate            0x080009f1   0xc6  Code  Gb  os_task.o [1]
+OSTaskCreateExt         0x08000ab7   0xde  Code  Gb  os_task.o [1]
+OSTaskCreateHook        0x08000859    0x2  Code  Gb  os_cpu_c.o [1]
+OSTaskCtr               0x20003820    0x1  Data  Gb  os_core.o [1]
+OSTaskIdleHook          0x0800085b    0x2  Code  Gb  os_cpu_c.o [1]
+OSTaskIdleStk           0x200030e8  0x200  Data  Gb  os_core.o [1]
+OSTaskNameSet           0x08000b95   0xb4  Code  Gb  os_task.o [1]
+OSTaskStatHook          0x0800085d    0x2  Code  Gb  os_cpu_c.o [1]
+OSTaskStatStk           0x20002ee8  0x200  Data  Gb  os_core.o [1]
+OSTaskStkChk            0x08000c49   0xae  Code  Gb  os_task.o [1]
+OSTaskStkInit           0x0800085f   0x80  Code  Gb  os_cpu_c.o [1]
+OSTaskSuspend           0x08000cf7   0xd0  Code  Gb  os_task.o [1]
+OSTaskSwHook            0x080008df    0x2  Code  Gb  os_cpu_c.o [1]
+OSTickStepState         0x20003821    0x1  Data  Gb  os_core.o [1]
+OSTime                  0x200037f8    0x4  Data  Gb  os_core.o [1]
+OSTimeDly               0x08000df9   0x68  Code  Gb  os_time.o [1]
+OSTimeDlyHMSM           0x08000e61   0xbe  Code  Gb  os_time.o [1]
+OSTimeTick              0x0800022b   0xf6  Code  Gb  os_core.o [1]
+OSTimeTickHook          0x080008e3    0x2  Code  Gb  os_cpu_c.o [1]
+OSUnMapTbl              0x080059a0  0x100  Data  Gb  os_core.o [1]
+OS_CPU_PendSVHandler    0x0800098b         Code  Gb  os_cpu_a.o [1]
+OS_CPU_SR_Restore       0x08000959         Code  Gb  os_cpu_a.o [1]
+OS_CPU_SR_Save          0x08000951         Code  Gb  os_cpu_a.o [1]
+OS_CPU_SysTickClkFreq   0x08000fdb    0xc  Code  Gb  Bsp.o [1]
+OS_CPU_SysTickHandler   0x080008e5   0x22  Code  Gb  os_cpu_c.o [1]
+OS_CPU_SysTickInit      0x08000907   0x36  Code  Gb  os_cpu_c.o [1]
+OS_InitEventList        0x08000321   0x44  Code  Lc  os_core.o [1]
+OS_InitMisc             0x08000365   0x52  Code  Lc  os_core.o [1]
+OS_InitRdyList          0x080003b7   0x44  Code  Lc  os_core.o [1]
+OS_InitTCBList          0x08000477   0x66  Code  Lc  os_core.o [1]
+OS_InitTaskIdle         0x080003fb   0x3e  Code  Lc  os_core.o [1]
+OS_InitTaskStat         0x08000439   0x3e  Code  Lc  os_core.o [1]
+OS_MemClr               0x080004dd   0x12  Code  Gb  os_core.o [1]
+OS_Sched                0x080004ef   0x5c  Code  Gb  os_core.o [1]
+OS_SchedNew             0x0800054b   0x20  Code  Lc  os_core.o [1]
+OS_StrCopy              0x0800056b   0x20  Code  Gb  os_core.o [1]
+OS_StrLen               0x0800058b   0x16  Code  Gb  os_core.o [1]
+OS_TCBInit              0x0800067f  0x150  Code  Gb  os_core.o [1]
+OS_TaskIdle             0x080005a1   0x22  Code  Gb  os_core.o [1]
+OS_TaskStat             0x080005c5   0x76  Code  Gb  os_core.o [1]
+OS_TaskStatStkChk       0x0800063b   0x44  Code  Gb  os_core.o [1]
+OS_TaskStkClr           0x08000de1   0x18  Code  Gb  os_task.o [1]
+OutStream_Write         0x08005671   0x40  Code  Lc  lz77_init.o [5]
+PAW_LedConfig           0x08001f6f    0x8  Code  Gb  Paw.o [1]
+PAW_LedSet              0x08002017   0x14  Code  Gb  Paw.o [1]
+PAW_LedSetAllOff        0x0800202b   0x34  Code  Gb  Paw.o [1]
+PAW_LedSetOne           0x08001f77   0xa0  Code  Gb  Paw.o [1]
+PAW_MCPSpiSimWrite      0x08001e5f   0x4e  Code  Lc  Paw.o [1]
+PAW_OSdelay             0x08001e55    0xa  Code  Lc  Paw.o [1]
+PAW_PCA9535I2CDriverSta
+                        0x08001ead    0x2  Code  Lc  Paw.o [1]
+PAW_PCA9535I2cDriverPort
+                        0x08001eaf   0x3e  Code  Lc  Paw.o [1]
+PAW_PCA9535Init         0x08001eed   0x82  Code  Lc  Paw.o [1]
+POWER_Config            0x08001c89    0x8  Code  Gb  Power.o [1]
+POWER_SwitchGpioConfig  0x08001c2d   0x5c  Code  Lc  Power.o [1]
+POWER_SwitchSet         0x08001c91   0x50  Code  Gb  Power.o [1]
+RCC_ADCCLKConfig        0x080011a9   0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_AHBPeriphClockCmd   0x08001299   0x1e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB1PeriphClockCmd  0x080012d5   0x1e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_APB2PeriphClockCmd  0x080012b7   0x1e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_DeInit              0x0800103d   0x5e  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetClocksFreq       0x080011bd   0xdc  Code  Gb  stm32f10x_rcc.o [1]
+RCC_GetFlagStatus       0x080012f3   0x50  Code  Gb  stm32f10x_rcc.o [1]
+RCC_HCLKConfig          0x0800116b   0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_HSEConfig           0x0800109b   0x56  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PCLK1Config         0x0800117f   0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PCLK2Config         0x08001193   0x16  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLLCmd              0x0800114d    0xa  Code  Gb  stm32f10x_rcc.o [1]
+RCC_PLLConfig           0x08001131   0x1c  Code  Gb  stm32f10x_rcc.o [1]
+RCC_SYSCLKConfig        0x08001157   0x14  Code  Gb  stm32f10x_rcc.o [1]
+RCC_WaitForHSEStartUp   0x080010f1   0x40  Code  Gb  stm32f10x_rcc.o [1]
+Region$$Table$$Base     0x08005c4c          --   Gb  - Linker created -
+Region$$Table$$Limit    0x08005c78          --   Gb  - Linker created -
+SHUTDOWN_Alarm          0x08004b8d   0x36  Code  Lc  ShutDown.o [1]
+SHUTDOWN_Exec           0x08004be3   0x8a  Code  Gb  ShutDown.o [1]
+SHUTDOWN_Is             0x08004c6d    0x6  Code  Gb  ShutDown.o [1]
+SHUTDOWN_ShutDown       0x08004bc3   0x20  Code  Lc  ShutDown.o [1]
+STARTINGUP_AlarmTask    0x08003cbd   0x1a  Code  Lc  StartingUp.o [1]
+STARTINGUP_Exec         0x08003c27   0x96  Code  Gb  StartingUp.o [1]
+STARTINGUP_FiO2ErrorFlag
+                        0x08003ceb    0x6  Code  Gb  StartingUp.o [1]
+STARTINGUP_GetCalibValue
+                        0x08003cdd    0x8  Code  Gb  StartingUp.o [1]
+STARTINGUP_GetCheckFlag
+                        0x08003ce5    0x6  Code  Gb  StartingUp.o [1]
+STARTINGUP_GetFlag      0x08003cd7    0x6  Code  Gb  StartingUp.o [1]
+STARTINTUP_Check        0x08003b41   0xe6  Code  Lc  StartingUp.o [1]
+TIM3_TimeBaseStructure  0x20003768    0xc  Data  Lc  Buzzer.o [1]
+TIME_GetTimer           0x08004c85   0x36  Code  Lc  TIME_Timer.o [1]
+TIME_Init               0x08004df1   0x44  Code  Gb  TIME_Timer.o [1]
+TIME_NormalTimerExec    0x08004ebd    0xa  Code  Gb  TIME_Timer.o [1]
+TIME_TimerCreate        0x08004cbb   0x72  Code  Gb  TIME_Timer.o [1]
+TIME_TimerReset         0x08004db9   0x38  Code  Gb  TIME_Timer.o [1]
+TIME_TimerScan          0x08004e41   0x7c  Code  Lc  TIME_Timer.o [1]
+TIME_TimerSet           0x08004d2d   0x60  Code  Gb  TIME_Timer.o [1]
+TIME_TimerStart         0x08004d8d   0x2c  Code  Gb  TIME_Timer.o [1]
+TIM_ClearITPendingBit   0x08002a25    0x8  Code  Gb  stm32f10x_tim.o [1]
+TIM_Cmd                 0x080029c1   0x1c  Code  Gb  stm32f10x_tim.o [1]
+TIM_GetITStatus         0x080029f3   0x32  Code  Gb  stm32f10x_tim.o [1]
+TIM_ITConfig            0x080029dd   0x16  Code  Gb  stm32f10x_tim.o [1]
+TIM_TimeBaseInit        0x08002981   0x36  Code  Gb  stm32f10x_tim.o [1]
+USART1_IRQHandle        0x08005bc7    0xa  Code  Lc  Uart.o [1]
+USART3_IRQHandle        0x08005bd1    0x2  Code  Lc  Uart.o [1]
+USART_ClearITPendingBit
+                        0x08005b2f   0x1c  Code  Gb  stm32f10x_usart.o [1]
+USART_GetFlagStatus     0x08005ab1   0x18  Code  Gb  stm32f10x_usart.o [1]
+USART_GetITStatus       0x08005ac9   0x66  Code  Gb  stm32f10x_usart.o [1]
+USART_Receive           0x08005b7f   0x48  Code  Lc  Uart.o [1]
+USART_ReceiveData       0x08005aa9    0x8  Code  Gb  stm32f10x_usart.o [1]
+USART_SendData          0x08005aa1    0x8  Code  Gb  stm32f10x_usart.o [1]
+_PrintfTiny             0x08002b1d  0x12c  Code  Gb  xprintftiny.o [3]
+_Prout                  0x08005ce7   0x16  Code  Gb  xprout.o [3]
+__aeabi_cfcmple         0x08004381         Code  Gb  FltCmpLe.o [4]
+__aeabi_cfrcmple        0x080055c5         Code  Gb  FltCmpGe.o [4]
+__aeabi_d2f             0x08003569         Code  Gb  DblToFlt.o [4]
+__aeabi_d2iz            0x08004335         Code  Gb  DblToI32.o [4]
+__aeabi_dadd            0x0800424d         Code  Gb  DblAdd.o [4]
+__aeabi_ddiv            0x08003321         Code  Gb  DblDiv.o [4]
+__aeabi_dmul            0x080035f9         Code  Gb  DblMul.o [4]
+__aeabi_f2d             0x080032d1         Code  Gb  FltToDbl.o [4]
+__aeabi_fdiv            0x08004069         Code  Gb  FltDiv.o [4]
+__aeabi_fsub            0x08004165         Code  Gb  FltSub.o [4]
+__aeabi_i2f             0x0800329d         Code  Gb  I32ToFlt.o [4]
+__aeabi_memset          0x080055e9         Code  Gb  ABImemset.o [5]
+__aeabi_ui2f            0x080032b1         Code  Gb  I32ToFlt.o [4]
+__cmain                 0x08005cb9         Code  Gb  cmain.o [5]
+__exit                  0x08005821   0x14  Code  Gb  exit.o [6]
+__iar_Memset            0x080055e9         Code  Gb  ABImemset.o [5]
+__iar_Memset_word       0x080055f1         Code  Gb  ABImemset.o [5]
+__iar_Stdout            0x20000640   0x40  Data  Gb  xfiles.o [3]
+__iar_d2uiz             0x08004361         Code  Gb  DblToI32.o [4]
+__iar_dadd              0x08004261         Code  Gb  DblAdd.o [4]
+__iar_data_init3        0x08005bdd   0x28  Code  Gb  data_init.o [5]
+__iar_dsub              0x08004a21         Code  Gb  DblSub.o [4]
+__iar_dsubStart         0x08004a33         Code  Gb  DblSub.o [4]
+__iar_fadd              0x080049ad         Code  Gb  FltAdd.o [4]
+__iar_fsub              0x08004175         Code  Gb  FltSub.o [4]
+__iar_fsubStart         0x08004185         Code  Gb  FltSub.o [4]
+__iar_lz77_init3        0x080056b1  0x16a  Code  Gb  lz77_init.o [5]
+__iar_program_start     0x08005d45         Code  Gb  cstartup_M.o [5]
+__iar_ui2f              0x080032b5         Code  Gb  I32ToFlt.o [4]
+__iar_unaligned___aeabi_memcpy4
+                        0x08005495         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_unaligned___aeabi_memcpy8
+                        0x08005495         Code  Gb  ABImemcpy_unaligned.o [5]
+__iar_zero_init3        0x0800101b   0x22  Code  Gb  zero_init3.o [5]
+__low_level_init        0x08005cd3    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x08000000  0x130  Data  Gb  App_vect_v5.o [1]
+_call_main              0x08005cc5         Code  Gb  cmain.o [5]
+_exit                   0x08005cdd         Code  Gb  cexit.o [5]
+_main                   0x08005ccf         Code  Gb  cmain.o [5]
+abort                   0x0800581b    0x6  Code  Gb  abort.o [3]
+addset                  0x08002785   0x30  Code  Gb  k096.o [1]
+delay                   0x080025cd   0x16  Code  Gb  k096.o [1]
+exit                    0x08005cd7    0x4  Code  Gb  exit.o [3]
+fputc                   0x08005b4d   0x32  Code  Gb  Uart.o [1]
+initi_oled              0x08002825  0x14e  Code  Gb  k096.o [1]
+m_AlHighAlarmBuzzer     0x200006b0   0x2c  Data  Lc  Alarm.o [1]
+m_AlSoundDisableTime    0x200006e8    0x4  Data  Lc  Alarm.o [1]
+m_AlarmCtr              0x20003548   0x74  Data  Lc  Alarm.o [1]
+m_CaAdjFlag             0x20003803    0x1  Data  Lc  Calibration.o [1]
+m_CaAdjMode             0x20003804    0x1  Data  Lc  Calibration.o [1]
+m_CaCount               0x20003805    0x1  Data  Lc  Calibration.o [1]
+m_CaKeyAdjNum           0x20003798    0x4  Data  Lc  Calibration.o [1]
+m_CaKeyCount            0x20003794    0x4  Data  Lc  Calibration.o [1]
+m_CaStatus              0x200006ec    0x4  Data  Lc  Calibration.o [1]
+m_CaTempVoltFiO2        0x2000379c    0x4  Data  Lc  Calibration.o [1]
+m_CaTempVoltPAW         0x2000371c   0x1c  Data  Lc  Calibration.o [1]
+m_CaTicked              0x200037a0    0x4  Data  Lc  Calibration.o [1]
+m_CalibrationStk        0x20001af8  0x400  Data  Lc  Main.o [1]
+m_CalibrationSucFlag    0x20003806    0x1  Data  Lc  Calibration.o [1]
+m_DaADFiO2              0x200037a4    0x4  Data  Lc  DataSamp.o [1]
+m_DaADPaw               0x20003738   0x1c  Data  Lc  DataSamp.o [1]
+m_DaAdcValueBuf         0x20003774    0x8  Data  Lc  DataSamp.o [1]
+m_DaBO2                 0x200037ac    0x4  Data  Lc  DataSamp.o [1]
+m_DaBPAW                0x200037b4    0x4  Data  Lc  DataSamp.o [1]
+m_DaBufferCalibration   0x200036dc   0x20  Data  Lc  DataSamp.o [1]
+m_DaFilterBuf           0x200035bc   0x50  Data  Lc  DataSamp.o [1]
+m_DaKO2                 0x200037a8    0x4  Data  Lc  DataSamp.o [1]
+m_DaKPAW                0x200037b0    0x4  Data  Lc  DataSamp.o [1]
+m_DaO2Value             0x200037b8    0x4  Data  Lc  DataSamp.o [1]
+m_DaOneFlag             0x20003807    0x1  Data  Lc  DataSamp.o [1]
+m_DaPawValue            0x200037bc    0x4  Data  Lc  DataSamp.o [1]
+m_DataSampStk           0x20000af8  0x400  Data  Lc  Main.o [1]
+m_DiAdjFlag             0x2000380b    0x1  Data  Lc  Display.o [1]
+m_DiFiO2Value           0x20003808    0x1  Data  Lc  Display.o [1]
+m_DiFiO2Valueflag       0x2000380a    0x1  Data  Lc  Display.o [1]
+m_DiOneFlag             0x2000380c    0x1  Data  Lc  Display.o [1]
+m_DiPawValue            0x20003809    0x1  Data  Lc  Display.o [1]
+m_DispStk               0x20000ef8  0x400  Data  Lc  Main.o [1]
+m_FirstInit             0x20003817    0x1  Data  Lc  Oled.o [1]
+m_KeAlarmSetFlag        0x2000380d    0x1  Data  Lc  KeyApp.o [1]
+m_KeAlarmSetSucFlag     0x2000380e    0x1  Data  Lc  KeyApp.o [1]
+m_KeAlarmValue          0x20003800    0x2  Data  Lc  KeyApp.o [1]
+m_KeCount               0x200037c0    0x4  Data  Lc  KeyApp.o [1]
+m_KeySource             0x20000680   0x30  Data  Lc  Key.o [1]
+m_KeyStk                0x200016f8  0x400  Data  Lc  Main.o [1]
+m_KeyValue              0x200006f0    0x4  Data  Lc  Key.o [1]
+m_LedContrl             0x200006dc    0xc  Data  Lc  Led.o [1]
+m_LedSource             0x20000590   0x60  Data  Lc  Led.o [1]
+m_MoAlarmTable          0x2000377c    0x8  Data  Lc  Monitor.o [1]
+m_MoAlarmTableBak       0x20003784    0x8  Data  Lc  Monitor.o [1]
+m_MoAlarmValue          0x200037cc    0x4  Data  Lc  Monitor.o [1]
+m_MoBatLowFlag          0x20003811    0x1  Data  Lc  Monitor.o [1]
+m_MoBatTooLow           0x20003816    0x1  Data  Lc  Monitor.o [1]
+m_MoCount               0x200037c4    0x4  Data  Lc  Monitor.o [1]
+m_MoFiO2Value           0x20003812    0x1  Data  Lc  Monitor.o [1]
+m_MoKeyFlag             0x20003814    0x1  Data  Lc  Monitor.o [1]
+m_MoOnOff               0x2000380f    0x1  Data  Lc  Monitor.o [1]
+m_MoPawValue            0x20003813    0x1  Data  Lc  Monitor.o [1]
+m_MoStatus              0x200006f4    0x2  Data  Lc  Monitor.o [1]
+m_MoTicked              0x200037c8    0x4  Data  Lc  Monitor.o [1]
+m_MoVerFlag             0x20003815    0x1  Data  Lc  Monitor.o [1]
+m_MonitorAlarmSet       0x20003810    0x1  Data  Lc  Monitor.o [1]
+m_MonitorStk            0x200012f8  0x400  Data  Lc  Main.o [1]
+m_PowerSwithSource      0x200005f0   0x50  Data  Lc  Power.o [1]
+m_Pre                   0x200006f6    0x2  Data  Lc  Paw.o [1]
+m_ShAlarmTable          0x2000378c    0x8  Data  Lc  ShutDown.o [1]
+m_ShFlag                0x20003822    0x1  Data  Lc  ShutDown.o [1]
+m_ShKeyNum              0x200037fc    0x4  Data  Lc  ShutDown.o [1]
+m_ShutDownStk           0x20001ef8  0x400  Data  Lc  Main.o [1]
+m_StAlarmStk            0x200026f8  0x400  Data  Lc  StartingUp.o [1]
+m_StBufferCalibration   0x200036fc   0x20  Data  Lc  StartingUp.o [1]
+m_StFiO2ErrorFlag       0x20003825    0x1  Data  Lc  StartingUp.o [1]
+m_StStaringFlag         0x20003823    0x1  Data  Lc  StartingUp.o [1]
+m_StStaringUpCheckFlag  0x20003824    0x1  Data  Lc  StartingUp.o [1]
+m_StartingUpStk         0x200022f8  0x400  Data  Lc  Main.o [1]
+m_TimerMng              0x200033d8   0xf0  Data  Lc  TIME_Timer.o [1]
+m_TimerStk              0x200006f8  0x400  Data  Lc  Main.o [1]
+m_UartCtr               0x200036ac   0x30  Data  Lc  Uart.o [1]
+m_UartSource            0x20000458  0x138  Data  Lc  Uart.o [1]
+main                    0x08005835   0x4a  Code  Gb  Main.o [1]
+memset                  0x080054eb   0x14  Code  Gb  memset.o [3]
+obuf                    0x2000365c   0x50  Data  Lc  xfiles.o [3]
+out                     0x08002b05   0x18  Code  Lc  xprintftiny.o [3]
+printf                  0x080025a9   0x24  Code  Gb  printf.o [3]
+putchar                 0x08005cfd    0xc  Code  Gb  putchar.o [3]
+send_color              0x080026cd   0x96  Code  Gb  k096.o [1]
+showzifu                0x080027b5   0x70  Code  Gb  k096.o [1]
+strlen                  0x08002c49         Code  Gb  strlen.o [5]
+write_command           0x080025e3   0x78  Code  Gb  k096.o [1]
+write_data              0x0800265b   0x72  Code  Gb  k096.o [1]
+zifu                    0x20000000  0x458  Data  Gb  k096.o [1]
+
+
+[1] = E:\01-svn\682\03-Ô­ÀíÊä³ö½×¶Î\03-Èí¼þ\01-Code Manage\01-Main Board\02-Trunk\01-MB_Code\IAR-Project\FLASH\Obj
+[2] = command line
+[3] = dl7M_tlf.a
+[4] = m7M_tl.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  23 096 bytes of readonly  code memory
+   1 496 bytes of readonly  data memory
+  15 398 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
