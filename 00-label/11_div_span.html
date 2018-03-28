@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>div_span_demo</title>
+</head>
+<body>
+	<!-- 输入div*3，然后按tab键，就可以生成3个div标签 -->
+	<div></div>
+	<div></div>
+	<div></div>
+
+	<!-- 输入div{我是div标签$}*3，然后按tab键，就可以生成3个div标签,并带上文字，$表示序号 -->
+	<!-- div是是块级标签，通过浏览器的审查元素可以看出，div标签中的内容是独占正行的 -->
+	<!-- div标签定义HTML文档中的分隔（divsion）或部分（section）；常用于组合块级元素，以便通过样式表来对这些元素进行格式化 -->
+	<div>我是div标签1</div>
+	<div>我是div标签2</div>
+	<div>我是div标签3</div>
+
+	<!-- span标签的快捷输出方式与div相同 -->
+	<!-- span是行级标签，通过浏览器审查元素可以看出，span标签中的内容，只占文字内容包含的空间，当前行中还可以显示别的标签 -->
+	<span>我是span标签1</span>
+	<span>我是span标签2</span>
+	<span>我是span标签3</span>
+
+	<!-- span标签用于对文档中的行内元素进行组合 -->
+	<p>This is a paragraph <span style="color:#00ff00;">This is a paragraph</span>
+This is a paragraph</p>
+</body>
+</html>
