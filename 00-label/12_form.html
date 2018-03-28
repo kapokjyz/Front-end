@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>form_demo</title>
+</head>
+<body>
+	<!-- 所有的表单标签必须包含在form标签中 -->
+	action中的包含的是后台地址
+	<form action="#">
+		<!-- input标签中type表示输入框的类型，text为文本框，radio为单选框,select为下拉列表标签， -->
+		姓名：<input type="text"> <br>
+		姓名：<input type="text" value="张三"> <br>
+
+		性别1：男<input type="radio"> 女<input type="radio"> <br>
+		<!-- 当类型为单选框，并且name属性为相同时，同时只能选择一个 -->
+		性别2：男<input type="radio" name="gender"> 女<input type="radio" name="gender"> <br>
+		<!-- checked属性可以设置当前的选项为默认选项 ；属性值和属性相同时，可以省略-->
+		性别3：男<input type="radio" name="gender" checked="checked"> 女<input type="radio" name="gender"> <br>
+		性别4：男<input type="radio" name="gender" checked> 女<input type="radio" name="gender"> <br>
+
+		<!-- 多选框 -->
+		<input type="checkbox">
+		<input type="checkbox">
+		<input type="checkbox" checked> <br>
+
+		<!-- 密码框 -->
+		密码：<input type="password"> <br>
+		
+		<!-- 下拉列表框 -->
+		<select name="" id="">
+			<option value="1">公历</option>
+			<!-- 下拉列表中，selected属性，值为true时，当前选项设置为默认选项 -->
+			<option value="2" selected="true">农历</option>
+		</select> <br><br>
+
+		<!-- 直接显示的列表框 multiple 代表 生成一个 展开的下拉列表 -->
+		<select name="" id="" multiple="multiple">
+			<option value="1">公历1</option>
+			<option value="2">农历2</option>
+			<option value="3">农历3</option>
+			<option value="4">农历4</option>
+		</select>
+
+		<!-- 文本域 -->
+		<textarea name="" id="" cols="30" rows="10">
+			内容
+		</textarea>
+
+	</form>
+</body>
+</html>
