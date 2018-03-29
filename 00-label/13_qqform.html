@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>qq 表单练习</title>
+</head>
+<body>
+	<form action="#">
+		<!-- 把这个表单看成是一个表格，分为两列多排 -->
+		<table>
+			<tr>
+				<td>昵称</td>
+				<td><input type="text"></td>
+			</tr>
+
+			<tr>
+				<td>密码</td>
+				<td><input type="password"></td>
+			</tr>
+
+			<tr>
+				<td>性别</td>
+				<td>
+					<!-- label标签的for属性里面输入id，可以点击男===点击单选框 -->
+					<input type="radio" name="123" id="123" checked>
+					<label for="123">男</label>	&nbsp;&nbsp;
+
+					<!-- label标签把整个都给包含，也与上面一样的效果 -->
+					<label><input type="radio" name="123"> 女</label>
+				</td>
+			</tr>
+
+			<tr>
+				<td>生日</td>
+				<td>
+					<select name="" id="">
+						<option value="">公历</option>
+						<option value="">农历</option>
+					</select>
+					<select>
+						<option value="">2011年</option>
+						<option value="">2012年</option>
+						<option value="">2013年</option>
+						<option value="">2014年</option>
+						<option value="">2015年</option>
+						<option value="">2016年</option>
+						<option value="">2017年</option>
+						<option value="">2018年</option>
+						<option value="">2019年</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<!-- 左边没有内容，第一列就不用写内容。 -->
+				<td></td>
+				<td>
+					<input type="checkbox">同时开通qq空间
+				</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td>
+					<input type="checkbox">同时开通qq微博
+				</td>
+			</tr>
+
+			<tr>
+				<td></td>
+				<td>
+					<input type="submit" value="注册">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
