@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>01书写CSS的demo</title>
+
+	<!-- 内嵌样式 -->
+	<!-- 在head标签中，嵌套一个style标签，在style标签中可以书写CSS样式内容；style标签有一个属性：type属性，默认值是text/css（可以省略） -->
+	<style type="text/css">
+		/*导入样式：现在很少用，几乎不用*/
+		/*将CSS文件的样式直接导入到当前的位置；*/
+		/*导入样式必须写在所有的其他样式设置之前*/
+		@import url(css/main.css);
+	
+		p { 
+			color: green; /*设置前景色，也就是字体的颜色*/
+			background-color: yellow; /*设置背景色*/
+		}
+
+		ul {
+			background-color: red;
+		}
+	</style>
+	
+	<!-- 外联CSS样式，外部CSS样式 -->
+	<!-- <link rel="stylesheet" href="css/main.css"> -->
+</head>
+<body>
+	<!-- 行内样式，是通过在标签中设置style属性来达到实现控制标签样式的效果，如下： -->
+	<!-- style属性中，可以设置多条的CSS样式 -->
+	<h1 style="color: red; font-size: 12px;">这是一个标题标签</h1>
+	<p>这是一个段落标签</p>
+	<!-- ul>li>a 可以得到下面的代码  >表示父子关系-->
+	<ul>
+		<li><a href="">beijing</a></li>
+	</ul>
+
+	<!-- ul>(li>a[herf="#"])*3 Emmate语法（）里面为一个整体，[]里面包含的是属性-->
+	<ul>
+		<li><a href="" herf="#">北京</a></li>
+		<li><a href="" herf="#">上海</a></li>
+		<li><a href="" herf="#">广州</a></li>
+		<li><a href="" herf="#">深圳</a></li>
+	</ul>
+
+</body>
+</html>
