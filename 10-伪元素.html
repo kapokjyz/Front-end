@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>伪元素案例</title>
+
+	<style>
+		/* p、div等块级元素的第一行 */
+		.ptxt:first-line {
+			color: red;
+		}
+
+		/* 第一个字符 */
+		.ptxt:first-letter {
+			font-size: 50px;
+		}
+
+		/* 选择属于第一个子元素的元素 */
+		/* 选择第一个子元素是em标签的元素 */
+		em:first-child {
+			color: red;
+		}
+	
+		/* 选择第一个子元素是span标签的元素 */
+		span:first-child {
+			color: green;
+		}
+
+		/* :before和:after伪元素可以设置元素前后的内容，并配合content设置相关内容	 */
+		.wrap:before {
+			/* content属性只能在伪元素:before和:after下使用，是行级元素，如果想要让虚线独占一行的话，可以使用display属性把content变为块级元素 */
+			content: "---------";
+			display: block;
+		}
+
+		.wrap:after {
+			content: "---------"
+		}
+	</style>
+</head>
+<body>
+	<p class="ptxt">
+		相比传统的MySQL复制，gtid复制无论是配置还是维护都要轻松的多。本文对gtid复制稍作介绍。 MySQL基于GTID复制官方手册：https://dev.mysql.com/doc/refman/5.7/en/replication gtids.html 1.gtid基本概念 传统的基于bin ... 
+	</p>
+
+	<div>
+		<em>第1个em</em>
+		<em>第3个em</em>
+		<em>第2个em</em>
+	</div>
+
+	<div>
+		<span>我是第一个儿子</span>
+		<span>我是第二个儿子</span>
+		<span>我是第三个儿子</span>
+	</div>
+
+	<p>
+		<span>第一个span</span>
+		<span>第二个span</span>
+		<span>死三个span</span>
+	</p>
+
+	<div>
+		<hr>
+	</div>
+
+	<div class="wrap">
+		我是div		
+	</div>
+
+	<div>
+		<hr>
+	</div>
+</body>
+</html>

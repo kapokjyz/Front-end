@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>css层叠性和继承性</title>
+	<style>
+		/* 样式会由最后的样式覆盖，（当然后期讲到优先级，不是这样，是根据优先级来的，同级才会覆盖） */
+		.box {
+			background-color: red;
+			height: 200px;
+			width: 200px;
+		}
+
+		.wrap {
+			/* background-color: green; */
+		}
+
+		.box {
+			/* background-color: blue; */
+		}
+	</style>
+</head>
+<body>
+	<div class="box wrap">
+		
+	</div>
+</body>
+</html>

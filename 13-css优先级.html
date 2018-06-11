@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>css优先级</title>
+	<!-- 1、优先级排序
+	内联样式（行内样式） > ID选择器 > 类选择器 > 标签选择器 -->
+	<style>
+		#txt-wrap {
+			color: green;
+		}	
+
+		.box {
+			color: red;
+		}
+
+		/* div {
+			color: yellow;
+		} */
+
+		/* 2、继承的优先级比CSS默认样式的优先级要高 */
+		body {
+			color: red;
+		}
+
+		/* 3、通配符的优先级比继承的优先级要高 */
+		* {
+			color: blue;
+		}
+
+		/* 4、标签的选择器的优先级要  高于  通配符选择器的优先级 */
+		h1 {
+			color: green;
+		}
+
+		/* 5、类选择器优先级  高于  标签选择器优先级 */
+		.title-demo {
+			color: purple;
+		}
+
+		/* 6、ID选择器的优先级  高于  类选择器的优先级 */
+
+		/* 7、行内样式选择器的优先级  高于  ID选择器的优先级 */
+
+		/* 8、复合选择器的话，从高到低优先级依次比，高优先级的更多则优先级高 */	
+		/* 如下面的两个复合选择器样式设置  依次比较选择器优先级 
+		*	
+		*	行内选择器    ID选择器    类选择器    标签选择器
+		* 	0             0           2           1 
+		* 	0             1           1           0
+		*
+		*   由于第二个复合选择器中ID选择器有1个，所以优先级高于第一个复合选择器优先级
+		*/	
+		.aside .aisde-dt h1 {
+			background-color: silver;
+		}
+
+		.aside #id-title {
+			background-color: yellow;
+		}
+	</style>
+
+
+</head>
+<body>
+	<div class="box" id="txt-wrap" style="color: blue;">
+		我是div
+	</div>
+
+	<div class="wrap">
+		<div class="aside">
+			<div class="aisde-dt" id="title-txt">
+				<h1 class="title-demo" id="id-title">我是一个标题</h1>
+			</div>
+			<div>
+				<p>我是一个段落</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

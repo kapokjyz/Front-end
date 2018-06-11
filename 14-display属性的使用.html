@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>displsy css 属性</title>
+	<style>
+		/* display可以控制标签的显示模式 
+		*  display: none | inline | block | inline-block
+		*  继承性 ：无
+		*  display属性值的解释：
+		*  none：此元素不被显示，在文档中被移除
+		*  block：此元素按块级元素显示：前后带换行符，自己占一行。内联元素->块元素
+		*  inline：此元素按内联元素显示，1个挨着1个，块元素->内联元素
+		*  inline-block：按行内标签进行排版，但是可以设置宽高，而且宽高可以影响行高
+		*/
+		div {
+			background-color: silver;
+			display: inline;
+		}
+
+		strong {
+			background-color: yellow;
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<!-- 行内元素 -->
+	<span>我是span标签</span>
+	<strong>我是strong标签</strong>
+	<s>我是一个s标签</s>
+
+	<!-- 块级标签 -->
+	<div>
+		我是一个div
+	</div>
+
+	<h1>
+		我是一个h1
+	</h1>
+</body>
+</html>

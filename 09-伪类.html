@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>伪类案例</title>
+
+	<style>
+		/* love hate原则：下面这个几个伪类，必须按照固定的先后顺序来写，不然会由于层叠性导致出现显示错误 */
+
+		/* :link伪类将应用与未被访问过的链接 */
+		a:link {
+			color: red;
+		}
+
+		/* :visited伪类将应用与已经被访问过的链接 */
+		a:visited {
+			color: purple;
+		}
+
+		/* :hover伪类将应用与有鼠标悬停其上的元素 */
+		a:hover {
+			background-color: silver;
+			color: white;
+		}
+
+		/* :active伪类将应用与被激活的元素，如被点击的链接、被按下的按钮等 */
+		a:active {
+			color: yellow;
+		}		
+
+		/* :focus伪类将应用到拥有键盘输入焦点的元素 */
+		.txt:focus {
+			background-color: blue;
+		}
+
+		a:focus {
+			font-size: 40px;
+		}
+	</style>
+</head>
+<body>
+	<a href="#">当前网址</a>
+	<a target="_blank" href="http://www.baidu.com">百度</a>
+	<a href="http://www.sina.com">新浪</a>
+	<a href="http://www.baidu.com">百度3</a>
+	<a href="http://www.baidu.com">百度4</a>
+
+	<input type="text" class="txt">
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>css继承性案例</title>
+	<!-- 不是所有的属性都可以继承
+	所有文字相关的都可以继承：color、text-系列、font-系列、line-系列、cursor等。
+	不可以继承的属性：边框、外边距、内边距、背景、定位、元素宽高等属性、所有盒子相关的属性。 -->
+	<style>
+		.box {
+			color: red;
+		}
+
+		/* 一般一个网页大部分的文字都是同样大小的，就在body下设置字体；有少数不一样的，在单独设置，可以根据层叠性层叠掉 */
+		body {
+			font-size: 40px;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		我是div
+		<p>
+			我是段落
+		</p>
+	</div>
+</body>
+</html>
