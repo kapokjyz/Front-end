@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>字体设置案例</title>
+	<style>
+		p {
+			/* font-size属性用于设置字号，该属性的值可以使用相对长度单位，也可以使用绝对长度单位，其中，相对长度单位比较常用，推荐使用像素单位px,绝对长度单位使用较少 */
+			/* 可选参数值(一般不用)：xx-small | x-small | small | medium |large | x-large | xx-large | smaller |  */
+			font-size: medium;
+
+			/* 不同系统，字体可能不兼容，比如Mac和Windows包含的字体库不同， */
+			/* 可以写多个字体，从左到右进行匹配；如下，有黑体就显示黑体，没有就尝试显示宋体 */
+			/* 1、设置字体时，各种字体之间必须使用英文状态下的逗号隔开
+			*  2、中文字体需要加英文状态下的引号，英文字体一般不需要加引号，当需要设置英文字体时，英文字体名必须位于中文字体名之前。
+			*  3、如果字体名中包含空格、#、$等符号，则改字体必须加英文状态下的单引号或者双引号。例如font-family: "Times New Roman"。
+			*  4、尽量使用系统默认字体，保证在任何用户的浏览器中都能正确显示。
+			*/
+			/* 设置字体时，直接写中文是可以的，但是在文件编码不匹配时会产生乱码的错误。为此，在CSS直接使用Unicode编码来写字体名称可以避免这些错误。例如：font-family: "\5FAE\8F6F\96C5\9ED1",表示设置字体为“微软雅黑”; Unicode编码可以通过escape()来的到*/
+			font-family: "黑体", "宋体";
+
+			/* font-weight属性用于定义字体的粗细，其可以属性值：normal、bold、bolder、lighter、100~900（100的整数倍），有继承性 */
+			/* 400：normal; 	700：bold */
+			/* 设置字体是否加粗是不需要单位的 */
+			font-weight: 700;
+
+			/* font-style属性用于定义字体风格，如设置斜体，倾斜或正常字体，其可用属性值如下：
+			*  normal：默认值，浏览器会显示标准的字体样式。
+			*  italic：浏览器会使用斜体的字体样式显示，如果字体没有斜体，那么正常显示字体。
+			*  oblique: 浏览器会让字体倾斜显示。 
+			*/
+			/* font-style: italic; */
+			font-style: oblique;
+
+		}
+		div {
+			/* font-size: 50px; */
+			font-size: large;
+			font-family: "微软雅黑"
+
+		}
+
+		/* serif         衬线体
+		*  sans-serif    非衬线体  
+		*/
+		.p1 {
+			/* 前面的黑体和微软雅黑都查找失败后，在系统中找一种sans-serif字体最为设置字体；注意顺序，如果把sans-serif放到前面去了，后面的就都失效了 */
+			font-family: '黑体', '微软雅黑', sans-serif;
+		}
+
+		.p2 {
+			font-family: serif;
+		}
+	</style>
+</head>
+<body>
+	<p>
+		我是一个段落标签
+	</p>
+	<div>
+		我是一个div，进行字体设置练习
+	</div>
+
+	<p class="p1">
+		AaBbCc 
+	</p>
+
+	<p class="p2">
+		AaBbCc 
+	</p>	
+</body>
+</html>

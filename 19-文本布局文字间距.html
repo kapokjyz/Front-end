@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文本布局文字间距</title>
+	<style>
+		.lett1 {
+			/* 可以控制字符的间距，中文一个汉字就代表一个字符，英文一个字母代表一个字符 */
+			letter-spacing: 10px;
+		}
+
+		.lett2 {
+			/* 只对英文单词有影响，对中文字与字之间的距离没有影响;如果中文之间有空格，会把空格设置程10px; */
+			word-spacing: 10px;
+		}
+	</style>
+</head>
+<body>
+	<p class="lett1">
+		番茄土豆商务软件，它可以帮助你计划、管理、执行、记录工作。现在就开始使用番茄土豆，完成了不起的工作！它简单、直观的对工作进行计划、管理、执行和记录。是你工作的好帮手。abcdefghijkl 
+	</p>
+
+	<p class="lett2">
+		我 是 一 个 老 师
+		I am a teacher
+	</p>
+</body>
+</html>

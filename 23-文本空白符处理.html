@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文本空白符处理</title>
+	<style>
+		div {
+			background-color: green;
+			height: 200px;
+			width: 200px;
+
+			/* 加边框 */
+			border: 1px solid red;
+		}
+
+		.normal {
+			/* word-break: 自动换行，可用属性值：
+			*  normal：使用浏览器默认的换行规则，不打断单词显示
+			*  break-all：允许在单词内换行
+			*  keep-all：只能在半角空格或连字符处换行
+			*/
+			/* word-break: break-all; */
+			word-break: keep-all;
+		}
+		
+		.nowrap {
+			/* white-space属性可用值：
+			*  normal: 正常显示，如果宽度不够进行换行显示;
+			*  nowrap: 即使超出盒子的宽度，文本也不进行换行显示;
+			*  pre:    html代码中是什么样式的，就显示什么样式;
+			*/ 
+			white-space: nowrap;			
+		}
+
+		.pre {
+			white-space: pre;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="normal">
+		normal: www.baidu.com www.sina.com
+	</div>
+
+	<div class="nowrap">
+		nowrap: www.baidu.com www.sina.com
+	</div>
+
+	<div class="pre">
+		pre: www.baidu.com www.sina.com
+		123
+		112
+		456
+	</div>
+</body>
+</html>

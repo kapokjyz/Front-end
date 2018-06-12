@@ -13,6 +13,14 @@
 		*  inline：此元素按内联元素显示，1个挨着1个，块元素->内联元素
 		*  inline-block：按行内标签进行排版，但是可以设置宽高，而且宽高可以影响行高
 		*/
+	
+		/*              宽高    边距            独占行
+		* 行内元素      no      左右边距        不独占
+		* 块级元素      yes     上下左右边距    独占
+		* 行内块元素    yes     左右左边距      不独占
+		*/
+	
+		/* 行内元素不能设置宽高，只能通过他的内容来撑开他的宽度和高度，如果设置了宽高不影响 */
 		div {
 			background-color: silver;
 			display: inline;
@@ -21,6 +29,16 @@
 		strong {
 			background-color: yellow;
 			display: block;
+			/* 直接把当前的标签从页面移除，不影响布局 */
+			/* display: none; */  
+			/* visibility：可见性；hidden：隐藏；这个只是不显示，但还是占用页面的空间 */
+			visibility: hidden;  
+		}
+
+		.demo-inline {
+			display: inline-block;
+			/* 可以设置宽高，行级元素是不可以设置宽高的 */
+			height: 200px;
 		}
 	</style>
 </head>
@@ -33,6 +51,10 @@
 	<!-- 块级标签 -->
 	<div>
 		我是一个div
+	</div>
+
+	<div class="demo-inline">
+		我是一个行内块级标签
 	</div>
 
 	<h1>

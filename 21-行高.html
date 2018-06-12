@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>行高</title>
+	<style>
+		/* 行高：文本顶部 + 文本底部 + 一倍行距
+		行高：两行文本之间的基线距离 */
+		/* 行高可以跟单位，也可以不跟单位，但是意义不一样 */
+		p {
+			/* 下面三种都是设置字体10px大小，行高为1.5倍字体大小 */
+			/* font: 10px/1.5em '宋体'; */
+			/* font: 10px/150% '宋体'; */
+			/* font: 10px/1.5 '宋体'; */
+
+			/* 下面这个设置字体10px大小，行高为20px */
+			/* font: 10px/50px '宋体'; */
+			/* background-color: silver; */
+		}
+
+		p.demo1 {
+			height: 100px;
+			/* 行高设置程标签高度一致，根据行高组成，可以知道字体就会居中*/
+			line-height: 100px;
+			text-align: center;
+
+			font-size: 15px;
+			background-color: silver;
+		}
+	</style>
+</head>
+<body>
+	<p class="demo2">
+		番茄土豆商务软件，它可以帮助你计划、管理、执行、记录工作。现在就开始使用番茄土豆，完成了不起的工作！它简单、直观的对工作进行计划、管理、执行和记录。是你工作的好帮手。abcdefghijkl
+	</p>
+
+	<p class="demo1">
+		番茄土豆商务软件，它可以帮助你计划、管理、执行、记录工作。现在就开始使用番茄土豆，完成了不起的工作！它简单、直观的对工作进行计划、管理、执行和记录。是你工作的好帮手。abcdefghijkl
+	</p>
+</body>
+</html>
